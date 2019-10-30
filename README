@@ -1,0 +1,11 @@
+This is just an embarrassingly simple Python package to get the number of bits
+in a byte (i.e. char) by making the `CHAR_BIT` standard macro of C available as
+an `int` constant.
+
+For local testing on GNU/Linux run:
+
+    $ bash build.sh
+
+For virtual-environment and/or system-wide installation and compilation run:
+
+    # python setup.py install
